@@ -9,12 +9,12 @@ const About = () => {
             <div class="row">
 
                 <div class="info">
-                    <h3> <span> name : </span> shaikh anas </h3>
-                    <h3> <span> age : </span> 20 </h3>
-                    <h3> <span> qualification : </span> BMS </h3>
+                    <h3> <span> name : </span> Tazul Islam Rakib </h3>
+                    <h3> <span> age : </span> 23 </h3>
+                    <h3> <span> qualification : </span> Kamil </h3>
                     <h3> <span> post : </span> front end developer </h3>
-                    <h3> <span> language : </span> hindi </h3>
-                    <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+                    <h3> <span> language : </span> English, Hndi, Bangla </h3>
+                    <a href="../../img/Resume.pdf" download><button class="btn"> download Resume <i class="fas fa-download"></i> </button></a>
                 </div>
 
                 <div class="counter">

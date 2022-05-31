@@ -1,4 +1,9 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
+import computer from '../../img/Computer Village.png';
+import trends from '../../img/trends.png';
+import sara from '../../img/saramadicalhall.png';
+import book from '../../img/fancybook.png';
 
 const Portfolio = () => {
     return (
@@ -9,28 +14,48 @@ const Portfolio = () => {
             <div class="box-container">
 
                 <div class="box">
-                    <img src="images/img1.jpg" alt="" />
+                    <Fade duration={1500} left>
+                        <div>
+                            <img src={computer} alt="" />
+                        </div>
+                    </Fade>
                 </div>
-
+               
                 <div class="box">
-                    <img src="images/img2.jpg" alt="" />
+                    <Fade duration={1500} top>
+                        <div>
+                            <img src={trends} alt="" />
+                        </div>
+                    </Fade>
                 </div>
-
+               
                 <div class="box">
-                    <img src="images/img3.jpg" alt="" />
+                    <Fade duration={1500} right>
+                        <div>
+                            <img src={sara} alt="" />
+                        </div>
+                    </Fade>
                 </div>
-
+               
                 <div class="box">
-                    <img src="images/img4.jpg" alt="" />
+                    <Fade duration={1500} bottom>
+                        <div>
+                            <img src={book} alt="" />
+                        </div>
+                    </Fade>
                 </div>
+               
+                {/* <div class="box">
+                    <Fade duration={1500} right>
+                        <div>
+                            <img src="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE.jpg" alt="" />
+                        </div>
+                    </Fade>
+                </div> */}
+               
 
-                <div class="box">
-                    <img src="images/img5.jpg" alt="" />
-                </div>
 
-                <div class="box">
-                    <img src="images/img6.jpg" alt="" />
-                </div>
+
 
             </div>
 
