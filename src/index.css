@@ -93,8 +93,8 @@ header{
     top:0; left:0;
     z-index: 1000;
     height:100%;
-    width:35rem;
-    background:#1a1a1a;
+    width:32rem;
+    background:#040b14;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,18 +107,42 @@ header .user img{
     width:10rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    border:.7rem solid var(--yellow);
+    margin-bottom: 0.7rem;
+    border:.6rem solid var(--yellow);
 }
 
 header .user .name{
     font-size: 3rem;
     color:#fff;
+    margin-bottom: 0.7rem;
+
 }
 
-header .user .post{
-    font-size: 1.5rem;
-    color:#eee;
+
+header .user ul {
+	color: white;
+	display: flex;
+    justify-content: center;
+}
+header .user ul li{
+	list-style: none;
+
+}
+header .user ul li a{
+    color: white;
+	font-size: 2rem;
+	background: #212431;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 0 7px;
+}
+header .user ul li a:hover{
+    background: var(--yellow);
+    
 }
 
 header .navbar{

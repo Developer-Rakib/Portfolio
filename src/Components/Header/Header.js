@@ -1,15 +1,23 @@
 import React from 'react';
+import me from '../../img/me.jpg';
+import { GoMarkGithub } from 'react-icons/go';
+import { GrLinkedinOption } from 'react-icons/gr';
+import { CgFacebook } from 'react-icons/cg';
+import { AiOutlineTwitter } from 'react-icons/ai';
 
 const Header = () => {
     return (
         <header>
 
             <div class="user">
-                <img src="img/me.jpg" alt=""/>
-                    <h3 class="name">shaikh anas</h3>
-                    <ul>
-                        <li></li>
-                    </ul>
+                <img src={me} alt="" />
+                <h3 class="name">Tazul Islam Rakib</h3>
+                <ul>
+                    <li><a href="" target="_blank" rel="noopener noreferrer"><GoMarkGithub></GoMarkGithub></a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer"><GrLinkedinOption></GrLinkedinOption></a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer"><CgFacebook></CgFacebook></a></li>
+                    <li><a href="" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter></AiOutlineTwitter></a></li>
+                </ul>
             </div>
 
             <nav class="navbar">
