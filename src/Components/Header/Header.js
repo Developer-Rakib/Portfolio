@@ -17,10 +17,10 @@ const Header = () => {
                 <img src={me} alt="" />
                 <h3 class="name">Tazul Islam Rakib</h3>
                 <ul>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><GoMarkGithub></GoMarkGithub></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><GrLinkedinOption></GrLinkedinOption></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><CgFacebook></CgFacebook></a></li>
-                    <li><a href="" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter></AiOutlineTwitter></a></li>
+                    <li><a href="https://github.com/Developer-Rakib" target="_blank" rel="noopener noreferrer"><GoMarkGithub></GoMarkGithub></a></li>
+                    <li><a href="https://www.linkedin.com/in/developer-rakib1/" target="_blank" rel="noopener noreferrer"><GrLinkedinOption></GrLinkedinOption></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100006549750347" target="_blank" rel="noopener noreferrer"><CgFacebook></CgFacebook></a></li>
+                    <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><AiOutlineTwitter></AiOutlineTwitter></a></li>
                 </ul>
             </div>
 
