@@ -8,7 +8,11 @@ const MySkills = () => {
             <h1 class="heading"> <span>My</span> Skills </h1>
             <div className='mySkill-container'>
                 <div className="skillAbout">
-                    <h3>Skill About</h3>
+                    <div>
+                    <h3>My Creative Skills & Experiences.</h3>
+                    <p>My name is Md. Tazul Islam, And I'm Studying Programming Hero. Web Design & Development is my passion. I Love To Learn New Skills to Become myself a Pro Developer. Now Learning JavaScript. I Get Deeper to Understand Client's Needs & Problems. My Mission is to Satisfy Every Client. Because Client Satisfaction is My First Priority. You'll Get Lifetime Support in Any Situation, I Promise that, You'll Get Fanatical Support And Absolutely Positively On-Time Delivery.</p>
+                    <button className='btn-fill'>Read More</button>
+                    </div>
                 </div>
                 <div className="skillProgress">
                     <div className='skill'>
