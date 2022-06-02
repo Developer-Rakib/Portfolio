@@ -7,7 +7,6 @@ const About = () => {
             <h1 class="heading"> <span>about</span> me </h1>
 
             <div class="row">
-
                 <div class="info">
                     <h3> <span> name : </span> Tazul Islam Rakib </h3>
                     <h3> <span> age : </span> 23 </h3>
@@ -18,7 +17,6 @@ const About = () => {
                 </div>
 
                 <div class="counter">
-
                     <div class="box">
                         <span>2+</span>
                         <h3>years of experience</h3>
