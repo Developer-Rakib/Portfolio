@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Portfolio from './Components/Portfolio/Portfolio';
 import {BsFillArrowUpSquareFill} from 'react-icons/bs';
+import MySkills from './Components/MySkills/MySkills';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Home></Home>
       <About></About>
       {/* <Education></Education> */}
+      <MySkills></MySkills>
       <Portfolio></Portfolio>
       <Contact></Contact>
       <a style={{color:'var(--primary)', fontSize:'40px'}} href="#home" class="top">
