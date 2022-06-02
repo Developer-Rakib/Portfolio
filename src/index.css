@@ -49,40 +49,69 @@ section{
     min-height: 100vh;
     padding:1rem;
 }
-
-.btn{
+button a{
     font-family: Open Sans, sans-serif;
-    letter-spacing: 2px;
-    padding:.8rem 3.2rem;
-    background:#333;
-    color:#fff;
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    border-radius: 5rem;
-}
-.btn-fill{
-    font-family: Open Sans, sans-serif;
-    letter-spacing: 2px;
-    padding:.8rem 3.2rem;
-    background: var(--primary);
-    color:#fff;
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 1.8rem;
-    border-radius: 5rem;
+	letter-spacing: 2px;
 }
 
+.btn-fill {
+	font-family: Open Sans, sans-serif;
+	letter-spacing: 2px;
+	height: 45px;
+    width: 150px;
+	
+	background: #333;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	border-radius: 5rem;
+	position: relative;
+	z-index: 1;
+	transition: ease-out 0.4s;
+}
+.btn-fill:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    opacity: 0;
+    bottom: 0;
+    transition: 0.5s all ease;
+    background-color: var(--primary);
+    border-radius: 5rem;
+}
+.btn-fill:hover:before{
+    left: 0;
+    right: 0;
+    transition: 0.5s all ease;
+    z-index: -1;
+    opacity: 1;
+}
 .btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
 }
+.btn {
+	font-family: Open Sans, sans-serif;
+	letter-spacing: 2px;
+	height: 45px;
+	width: 278px;
+	background: var(--primary);
+	color: #fff;
+	cursor: pointer;
+	margin-top: 1rem;
+	font-size: 1.8rem;
+	border-radius: 29px;
+    transition: ease-out 0.3s;
+	box-shadow: inset 0 0 0 0 #333;
+}
+
 
 .btn:hover{
-    background:var(--primary);
-}
-.btn-fill:hover{
-    background:#333;
+    box-shadow: inset  278px 0 0 0 #333;
+    /* border-radius: 10px; */
 }
 
 .heading{
@@ -351,11 +380,89 @@ header .navbar ul li a:hover{
     height: 20rem;
     width:26rem;
     object-fit: cover;
+    position: relative;
+    transition: all 0.3s ease-out;
 }
-
+/* 
 .portfolio .box-container .box img:hover{
     transform: scale(1.2);
+} */
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+    opacity: 0.4;
+
 }
+.project-hover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* height: 0; */
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    /* visibility: hidden;
+    opacity: 0; */
+   
+}
+
+.project-hover button {
+	width: 132px;
+	height: 35px;
+	font-size: 14px;
+    transition: 0.5s ease-out;
+}
+.project-hover button:hover{
+    box-shadow: inset  150px 0 0 0 #333;
+    transition: all 0.3s ease-out;
+}
+.project-hover h2{
+    font-size: 23px;
+    font-weight: 700;
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.project-hover button a{
+    color: white;
+
+}
+.project-hover button:nth-child(2){
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out 0.2s;
+}
+.project-hover button:nth-child(3){
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.3s ease-out 0.3s;
+    /* transition-property: transform; */
+}
+
+.portfolio .box-container .box:hover .project-hover h2{
+    transform: translateY(0);
+    opacity: 1;
+}
+.portfolio .box-container .box:hover .project-hover button:nth-child(2){
+    transform: translateY(0);
+    opacity: 1;
+}
+.portfolio .box-container .box:hover .project-hover button:nth-child(3){
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* .portfolio .box-container .box:hover .project-hover{
+    background-color: rgba(0, 0, 255, 0.671);
+    height: 30%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+} */
+
+
+
 
 .contact .row{
     display: flex;

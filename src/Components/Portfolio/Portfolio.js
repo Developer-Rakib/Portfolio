@@ -17,6 +17,11 @@ const Portfolio = () => {
                     <Fade duration={1500} left>
                         <div>
                             <img src={computer} alt="" />
+                            <div className='project-hover'>
+                                <h2>Computer Village</h2>
+                                <button className='btn-fill'><a href="">Live Link</a></button>
+                                <button className='btn'><a href="">Code Link</a></button>
+                            </div>
                         </div>
                     </Fade>
                 </div>
@@ -25,6 +30,11 @@ const Portfolio = () => {
                     <Fade duration={1500} top>
                         <div>
                             <img src={trends} alt="" />
+                            <div className='project-hover'>
+                                <h2>TRENDs</h2>
+                                <button className='btn-fill'><a href="">Live Link</a></button>
+                                <button className='btn'><a href="">Code Link</a></button>
+                            </div>
                         </div>
                     </Fade>
                 </div>
@@ -33,6 +43,11 @@ const Portfolio = () => {
                     <Fade duration={1500} right>
                         <div>
                             <img src={sara} alt="" />
+                            <div className='project-hover'>
+                                <h2>Sara Madical</h2>
+                                <button className='btn-fill'><a href="">Live Link</a></button>
+                                <button className='btn'><a href="">Code Link</a></button>
+                            </div>
                         </div>
                     </Fade>
                 </div>
@@ -41,6 +56,11 @@ const Portfolio = () => {
                     <Fade duration={1500} bottom>
                         <div>
                             <img src={book} alt="" />
+                            <div className='project-hover'>
+                                <h2>Fancy Book</h2>
+                                <button className='btn-fill'><a href="">Live Link</a></button>
+                                <button className='btn'><a href="">Code Link</a></button>
+                            </div>
                         </div>
                     </Fade>
                 </div>
