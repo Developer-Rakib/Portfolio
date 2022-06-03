@@ -18,22 +18,22 @@ const About = () => {
 
                 <div class="counter">
                     <div class="box">
-                        <span>2+</span>
+                        <span>1.5+</span>
                         <h3>years of experience</h3>
                     </div>
 
                     <div class="box">
-                        <span>100+</span>
+                        <span>50+</span>
                         <h3>porject completed</h3>
                     </div>
 
                     <div class="box">
-                        <span>430+</span>
+                        <span>100+</span>
                         <h3>happy clients</h3>
                     </div>
 
                     <div class="box">
-                        <span>12+</span>
+                        <span>3+</span>
                         <h3>awards won</h3>
                     </div>
 

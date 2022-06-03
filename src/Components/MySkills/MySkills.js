@@ -21,7 +21,7 @@ const MySkills = () => {
                             completed={90}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -35,7 +35,7 @@ const MySkills = () => {
                             completed={88}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -49,7 +49,7 @@ const MySkills = () => {
                             completed={90}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -63,7 +63,7 @@ const MySkills = () => {
                             completed={60}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -77,7 +77,7 @@ const MySkills = () => {
                             completed={90}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -91,7 +91,7 @@ const MySkills = () => {
                             completed={50}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -105,7 +105,7 @@ const MySkills = () => {
                             completed={78}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -119,7 +119,7 @@ const MySkills = () => {
                             completed={72}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
@@ -133,7 +133,7 @@ const MySkills = () => {
                             completed={75}
                             bgColor="blue"
                             baseBgColor="rgb(191, 191, 255)"
-                            height="9px"
+                            height="11px"
                             labelColor="#ffffff"
                             labelSize="10px"
                             animateOnRender
