@@ -710,10 +710,43 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+    .mySkill-container {
+        flex-direction: column;
+    }
+    .skillAbout {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .skillProgress {
+        width: 90%;
+        margin: 15px auto;
+    }
+    .contact-info {
+        flex-wrap: wrap;
+    }
+    .contact {
+        width: 195px;
+        height: 156px;
+        border-radius: 35px 0;
+        margin: 10px;
+    }
+    .contact i {
+        font-size: 30px;
+    }
+    .contact h3 {
+        font-size: 18px;
+    }
+    .contact p {
+        font-size: 15px;
+    }
+    .contact-form {
+        padding: 45px 0;
+        width: 60%;
+    }
  
  }
 
-@media (max-width:400px){
+@media (max-width:450px){
 
     header{
         width: 100vw;
@@ -737,6 +770,10 @@ header .navbar ul li a:hover{
 
     .contact .row form{
         margin:3rem 0;
+    }
+    .contact-form {
+        padding: 45px 0;
+        width: 85%;
     }
 
  }
