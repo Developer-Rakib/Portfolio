@@ -3,9 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
         <section class="contact-section container" id='contact'>
-         <div class="product-title">
-            <h2>Contact us</h2>
-         </div>
+         <h1 class="heading"> <span>contact</span> me </h1>
 
          <div class="contact-info">
 
@@ -31,7 +29,7 @@ const Contact = () => {
             <input type="text" name="name" placeholder="Name" id=""/> 
             <input type="email" name="name" placeholder="Email" id=""/> 
             <textarea name="" id="" cols="30" rows="10" placeholder='Message...'></textarea>
-            <button type="submit">Send</button>
+            <button className='btn' type="submit"> send <i class="fas fa-paper-plane"></i> </button>
          </div>
 
 
