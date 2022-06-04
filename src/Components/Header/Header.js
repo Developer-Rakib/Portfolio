@@ -29,8 +29,8 @@ const Header = () => {
                 <ul>
                     <li><a href="#home"><AiOutlineHome style={{ marginRight: '10px' }}></AiOutlineHome> Home</a></li>
                     <li><a href="#about"><FiUser style={{ marginRight: '10px' }}></FiUser> about</a></li>
+                    <li><a href="#education"> <i  style={{ marginRight: '8px' }} class="fas fa-graduation-cap"></i> education</a></li>
                     <li><a href="#mySkills"><img src={skills} alt="" /> Skills</a></li>
-                    {/* <li><a href="#education">education</a></li> */}
                     <li><a href="#portfolio"><BiBookContent style={{ marginRight: '10px' }}></BiBookContent> portfolio</a></li>
                     <li><a href="#contact"><RiContactsBookLine style={{ marginRight: '10px' }}></RiContactsBookLine> Contact</a></li>
                 </ul>

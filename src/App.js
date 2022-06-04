@@ -15,7 +15,7 @@ function App() {
       <div id="menu" class="fas fa-bars"></div>
       <Home></Home>
       <About></About>
-      {/* <Education></Education> */}
+      <Education></Education>
       <MySkills></MySkills>
       <Portfolio></Portfolio>
       <Contact></Contact>

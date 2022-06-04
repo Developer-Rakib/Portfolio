@@ -212,8 +212,6 @@ header p {
 }
 header p a{
     color: var(--primary);
-    
-
 }
 
 
@@ -394,7 +392,7 @@ header .navbar ul li a:hover {
 .education .box-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 1rem 0;
     padding-left: 3rem;

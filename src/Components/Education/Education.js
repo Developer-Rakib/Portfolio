@@ -10,33 +10,45 @@ const Education = () => {
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
+        <span>2012</span>
+        <h3>Hifzul Quran</h3>
+        <p>
+            Al-Faruq Islamic Academy <br />
+            Chatkhil, Noakhali, Bangladesh
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
         <span>2016</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <h3>HSC</h3>
+        <p>
+            Al-Jamiatul Islamia <br />
+            Maijdee, Noakhali, Bangladesh
+        </p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <span>2021</span>
+        <h3>Masters</h3>
+        <p>
+            Darul Uloom Mueenul Islam <br />
+            Hathazari, Chottogram, Bangladesh
+        </p>
     </div>
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2018</span>
+        <span>2022</span>
         <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
+        <p>
+            Programming Hero <br />
+            Level-4, 34, Awal Centre, Banani, Dhaka
+            </p>
     </div>
 
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2019</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
+    {/* <div class="box">
         <i class="fas fa-graduation-cap"></i>
         <span>2020</span>
         <h3>front end development</h3>
@@ -48,7 +60,7 @@ const Education = () => {
         <span>2021</span>
         <h3>front end development</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
+    </div> */}
 
 </div>
 
