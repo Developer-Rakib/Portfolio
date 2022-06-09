@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
    const form = useRef();
@@ -9,11 +10,11 @@ const Contact = () => {
       emailjs.sendForm('service_l4l1k4h', 'template_8e1jdsr', form.current, 'm1lQ_oBWTWmW45qJA')
          .then((result) => {
             console.log(result.text);
-            console.log("email sent");
+            toast.success("Mail Sent!")
             e.target.reset()
          }, (error) => {
             console.log(error.text);
-            console.log("error");
+            toast.error(error.text)
          });
         
    };
@@ -43,9 +44,9 @@ const Contact = () => {
 
          <div class="contact-form">
             <form ref={form} onSubmit={sendEmail}>
-               <input type="text" name="user_name" placeholder="Name" id="" />
-               <input  style={{ textTransform: 'lowercase' }} type="email" name="user_email" placeholder="Email" id="" />
-               <textarea  name="message"  id="" cols="30" rows="10" placeholder='Message...'></textarea>
+               <input type="text" name="user_name" placeholder="Name" id=""  required/>
+               <input  style={{ textTransform: 'lowercase' }} type="email" name="user_email" placeholder="Email" id=""  required/>
+               <textarea  name="message"  id="" cols="30" rows="10" required placeholder='Message...'></textarea>
                <button className='btn' type="submit"> send <i class="fas fa-paper-plane"></i> </button>
             </form>
 
@@ -54,44 +55,6 @@ const Contact = () => {
 
 
       </section>
-      // <section class="contact" id="contact">
-
-      //     <h1 class="heading"> <span>contact</span> me </h1>
-
-      //     <div class="row">
-
-      //         <div className='contact-info'>
-      //             <div></div>
-      //             <div></div>
-      //             <div></div>
-      //         </div>
-
-      //         {/* <div class="content">
-
-      //             <h3 class="title">contact info</h3>
-
-      //             <div class="info">
-      //                 <h3> <i class="fas fa-envelope"></i> tajulislam601@gmail.com </h3>
-      //                 <h3> <i class="fas fa-phone"></i> +8801978870125 </h3>
-      //                 <h3> <i class="fas fa-phone"></i> +880197887012 </h3>
-      //                 <h3> <i class="fas fa-map-marker-alt"></i>Chottogram, Bangaldesh  </h3>
-      //             </div>
-
-      //         </div>
-
-      //         <form action="">
-
-      //             <input type="text" placeholder="name" class="box" />
-      //             <input type="email" placeholder="email" class="box" />
-      //             <input type="text" placeholder="project" class="box" />
-      //             <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-      //             <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
-
-      //         </form> */}
-
-      //     </div>
-
-      // </section>
    );
 };
 
