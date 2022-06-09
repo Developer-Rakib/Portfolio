@@ -59,8 +59,7 @@ button a {
     font-family: Open Sans, sans-serif;
     letter-spacing: 2px;
     height: 45px;
-    width: 150px;
-
+    width: 278px;
     background: #333;
     color: #fff;
     cursor: pointer;
@@ -102,7 +101,7 @@ button a {
     font-family: Open Sans, sans-serif;
     letter-spacing: 2px;
     height: 45px;
-    width: 278px;
+    width: 150px;
     background: var(--primary);
     color: #fff;
     cursor: pointer;
@@ -115,7 +114,7 @@ button a {
 
 
 .btn:hover {
-    box-shadow: inset 278px 0 0 0 #333;
+    box-shadow: inset 150px 0 0 0 #333;
     /* border-radius: 10px; */
 }
 

@@ -18,8 +18,8 @@ const Home = () => {
             <p>I am a professional MERN Stack Web Developer. I'm very passionate and dedicated to my work. With 1.5 years of experience as a professional React Developer, I have acquired the skills and knowledge necessary to make your project a success. I am passionate to learn more and get my skill sets more polished and learn new technologies.
             </p>
             <div>
-                <a style={{ marginRight: '5px' }} href="../../img/Resume_of_Rakib_fullstack.pdf" download><button class="btn-fill">Download Resume <i class="fas fa-download"></i> </button></a>
-                {/* <a href="../../img/Resume.pdf" download><button class="btn">Download Resume</button></a> */}
+                <a style={{ marginRight: '5px' }} href="https://drive.google.com/file/d/1Cw0BYmUdEG06Won1hwMcVKd3ALPcVK96/view?usp=sharing" target={'_blank'}><button class="btn-fill">Download Resume <i class="fas fa-download"></i> </button></a>
+
             </div>
 
         </section>
