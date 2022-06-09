@@ -7,6 +7,7 @@ import Home from './Components/Home/Home';
 import Portfolio from './Components/Portfolio/Portfolio';
 import {BsFillArrowUpSquareFill} from 'react-icons/bs';
 import MySkills from './Components/MySkills/MySkills';
+import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <div id="menu" class="fas fa-bars"></div>
       <Home></Home>
       <About></About>
-      <Education></Education>
       <MySkills></MySkills>
       <Portfolio></Portfolio>
+      <Education></Education>
+      {/* <Testimonial></Testimonial> */}
       <Contact></Contact>
       <a style={{color:'var(--primary)', fontSize:'40px'}} href="#home" class="top">
         <BsFillArrowUpSquareFill></BsFillArrowUpSquareFill>

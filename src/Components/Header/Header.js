@@ -9,6 +9,8 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { FiUser } from 'react-icons/fi';
 import { RiContactsBookLine } from 'react-icons/ri';
 import { BiBookContent } from 'react-icons/bi';
+import { VscFeedback } from 'react-icons/vsc';
+import { HiOutlineAcademicCap } from 'react-icons/hi';
 
 const Header = () => {
     return (
@@ -28,11 +30,20 @@ const Header = () => {
             <nav class="navbar">
                 <ul>
                     <li><a href="#home"><AiOutlineHome style={{ marginRight: '10px' }}></AiOutlineHome> Home</a></li>
+
                     <li><a href="#about"><FiUser style={{ marginRight: '10px' }}></FiUser> about</a></li>
-                    <li><a href="#education"> <i  style={{ marginRight: '8px' }} class="fas fa-graduation-cap"></i> education</a></li>
+
                     <li><a href="#mySkills"><img src={skills} alt="" /> Skills</a></li>
-                    <li><a href="#portfolio"><BiBookContent style={{ marginRight: '10px' }}></BiBookContent> portfolio</a></li>
+
                     <li><a href="#contact"><RiContactsBookLine style={{ marginRight: '10px' }}></RiContactsBookLine> Contact</a></li>
+
+                    <li><a href="#portfolio"><BiBookContent style={{ marginRight: '10px' }}></BiBookContent> portfolio</a></li>
+
+                    <li><a href="#education"> <HiOutlineAcademicCap style={{ marginRight: '8px' }} class="fas fa-graduation-cap"></HiOutlineAcademicCap> education</a></li>
+
+                    {/* <li><a href="#testimonial"> <VscFeedback style={{ marginRight: '10px' }}></VscFeedback> testimonial</a></li> */}
+
+
                 </ul>
             </nav>
 

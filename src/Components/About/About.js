@@ -13,7 +13,7 @@ const About = () => {
                     <h3> <span> qualification : </span> Kamil </h3>
                     <h3> <span> post : </span> front end developer </h3>
                     <h3> <span> language : </span> English, Hndi, Bangla </h3>
-                    <a href="../../img/Resume.pdf" download><button class="btn"> download Resume <i class="fas fa-download"></i> </button></a>
+                    <a href="https://www.linkedin.com/in/developer-rakib1/" target={'_blank'}><button class="btn">Hire Me</button></a>
                 </div>
 
                 <div class="counter">
