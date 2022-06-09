@@ -37,7 +37,7 @@ const Header = () => {
 
                     <li><a href="#contact"><RiContactsBookLine style={{ marginRight: '10px' }}></RiContactsBookLine> Contact</a></li>
 
-                    <li><a href="#portfolio"><BiBookContent style={{ marginRight: '10px' }}></BiBookContent> portfolio</a></li>
+                    <li><a href="#portfolio"><BiBookContent style={{ marginRight: '10px' }}></BiBookContent> Projects</a></li>
 
                     <li><a href="#education"> <HiOutlineAcademicCap style={{ marginRight: '8px' }} class="fas fa-graduation-cap"></HiOutlineAcademicCap> education</a></li>
 

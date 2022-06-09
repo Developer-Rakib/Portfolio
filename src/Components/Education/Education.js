@@ -8,13 +8,25 @@ const Education = () => {
 
 <div class="box-container">
 
+<div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>2022</span>
+        <h3>front end development</h3>
+        <p>
+            Programming Hero <br />
+            Level-4, 34, Awal Centre, Banani, Dhaka
+            </p>
+    </div>
+
+   
+
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2012</span>
-        <h3>Hifzul Quran</h3>
+        <span>2021</span>
+        <h3>Masters</h3>
         <p>
-            Al-Faruq Islamic Academy <br />
-            Chatkhil, Noakhali, Bangladesh
+            Darul Uloom Mueenul Islam <br />
+            Hathazari, Chottogram, Bangladesh
         </p>
     </div>
 
@@ -30,38 +42,13 @@ const Education = () => {
 
     <div class="box">
         <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>Masters</h3>
+        <span>2012</span>
+        <h3>Hifzul Quran</h3>
         <p>
-            Darul Uloom Mueenul Islam <br />
-            Hathazari, Chottogram, Bangladesh
+            Al-Faruq Islamic Academy <br />
+            Chatkhil, Noakhali, Bangladesh
         </p>
     </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2022</span>
-        <h3>front end development</h3>
-        <p>
-            Programming Hero <br />
-            Level-4, 34, Awal Centre, Banani, Dhaka
-            </p>
-    </div>
-
-    {/* <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2020</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2021</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div> */}
-
 </div>
 
 </section>

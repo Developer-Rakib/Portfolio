@@ -784,17 +784,17 @@ textarea {
     }
 
     .btn-fill {
+        height: 40px;
+        width: 230px;
+    }
+    
+    .btn {
         height: 39px;
         width: 137px;
     }
 
-    .btn {
-        height: 40px;
-        width: 230px;
-    }
-
     .btn:hover {
-        box-shadow: inset 230px 0 0 0 #333;
+        box-shadow: inset 137px 0 0 0 #333;
     }
 
     .portfolio .box-container .box {
