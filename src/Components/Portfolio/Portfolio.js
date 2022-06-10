@@ -65,13 +65,6 @@ const Portfolio = () => {
                     </Fade>
                 </div>
                
-                {/* <div class="box">
-                    <Fade duration={1500} right>
-                        <div>
-                            <img src="https://www.timeoutdubai.com/cloud/timeoutdubai/2021/09/11/hfpqyV7B-IMG-Dubai-UAE.jpg" alt="" />
-                        </div>
-                    </Fade>
-                </div> */}
                
 
 

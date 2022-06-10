@@ -10,6 +10,7 @@ import express from '../../img/express.png';
 import react from '../../img/React-icon.svg-removebg-preview.png';
 import NextJS from '../../img/1_KDMx1YspSrBcFJG-NDZgDg-removebg-preview.png';
 import firebase from '../../img/firebase-removebg-preview.png';
+import { Zoom } from 'react-reveal';
 
 const MySkills = () => {
     const skillImgs = [
@@ -46,10 +47,12 @@ const MySkills = () => {
                     {
                         skillImgs.map(skillImg => {
                             return (
-                                <div className='skill'>
+                                <Zoom duration={1000} >
+                                    <div className='skill'>
                                     <img src={skillImg.img} alt="" />
                                     <h3>{skillImg.name}</h3>
                                 </div>
+                                </Zoom>
                             )
                         })
                     }

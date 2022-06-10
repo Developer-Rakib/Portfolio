@@ -1,4 +1,5 @@
 import React from 'react';
+import { Bounce } from 'react-reveal';
 
 const About = () => {
     return (
@@ -16,32 +17,33 @@ const About = () => {
                     <a href="https://www.linkedin.com/in/developer-rakib1/" target={'_blank'}><button class="btn">Hire Me</button></a>
                 </div>
 
-                <div class="counter">
-                    <div class="box">
-                        <span>1.5+</span>
-                        <h3>years of experience</h3>
+                    <div class="counter">
+                        <div class="box">
+                            <span>1.5+</span>
+                            <h3>years of experience</h3>
+                        </div>
+
+                        <div class="box">
+                            <span>50+</span>
+                            <h3>porject completed</h3>
+                        </div>
+
+                        <div class="box">
+                            <span>100+</span>
+                            <h3>happy clients</h3>
+                        </div>
+
+                        <div class="box">
+                            <span>3+</span>
+                            <h3>awards won</h3>
+                        </div>
+
                     </div>
 
-                    <div class="box">
-                        <span>50+</span>
-                        <h3>porject completed</h3>
-                    </div>
-
-                    <div class="box">
-                        <span>100+</span>
-                        <h3>happy clients</h3>
-                    </div>
-
-                    <div class="box">
-                        <span>3+</span>
-                        <h3>awards won</h3>
-                    </div>
-
-                </div>
 
             </div>
 
-        </section>
+        </section >
     );
 };
 

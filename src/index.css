@@ -384,7 +384,6 @@ header .navbar ul li a:hover {
 .skill {
 	
 	background: #333;
-	/* padding: 6px; */
 	margin: 8px;
     display: flex;
     height: 95px;
@@ -491,6 +490,7 @@ header .navbar ul li a:hover {
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
 }
 
 .portfolio .box-container .box img {
@@ -509,6 +509,7 @@ header .navbar ul li a:hover {
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
     opacity: 0.4;
+    position: relative;
 
 }
 
